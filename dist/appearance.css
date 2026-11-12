@@ -1,0 +1,50 @@
+:root{--surface:#fff;--soft:#edf2ee;--ink:#23332e;--muted:#586860;--line:#dce3dd;--warn-bg:#faf1df;--warn-ink:#705521;--good-bg:#e7f2e9;--good-ink:#265f43;--bad-bg:#fbece7;--bad-ink:#8c3d31;--on-accent:#fff;--hero:#253b34}
+:root[data-mode=dark]{--bg:#171c1b;--surface:#212826;--soft:#2c3632;--ink:#e5ece8;--muted:#b1beb7;--line:#45524b;--warn-bg:#3c3323;--warn-ink:#ead19c;--good-bg:#263d30;--good-ink:#afe0bd;--bad-bg:#452c29;--bad-ink:#f2b7a9;--on-accent:#18231e;--hero:#24302b}
+:root[data-palette=slate]{--hero:#2d3d4b}:root[data-palette=lavender]{--hero:#403548}:root[data-palette=terracotta]{--hero:#4a342d}:root[data-palette=sand]{--hero:#443c2e}
+body{color:var(--ink)}p,.keypoints,.install-steps{color:var(--muted)}button,input,select,textarea,dialog,aside,.stat,.card,.lessonbody,.flash,.quizbox,.panel,.tools input,.tools select,.step select,.step input[type=number]{background:var(--surface);color:var(--ink)}
+header button,nav button,.subtle,.back{background:transparent}nav button,.welcome,.stat .label,.offline-status{color:var(--muted)}
+nav button.active,.icon,.tag,.lessonhead,.memory,.flow,.domain-strip,.checkpoint,.panel pre,.lesson-step-nav button[aria-pressed=true],.mechanism-flow li>span,.usecase-list li,.header-actions .install-button{background:var(--soft);background:color-mix(in srgb,var(--green) 10%,var(--surface));color:var(--ink)}
+nav button.active,.tag,.icon,.module-number,.usecase-list li>span,.lesson-step-nav button[aria-pressed=true],.offline-status[data-ready=true]{color:var(--green)}
+.primary,.workshop-tabs [aria-pressed=true]{background:var(--green);border-color:var(--green);color:var(--on-accent)}
+.hero{background:var(--hero)}.hero .eyebrow{color:#d6e4db}.hero p,.nextlesson{color:#d6e4db!important}.hero button{background:#e8c78e;color:#2b3028}.orb{background:#364e44;border-color:#82988d;box-shadow:12px 13px 0 #17251f}.orb:nth-child(3){background:#d5e3ca;color:#234136}.orbit{border-color:#8ca094}.brandicon{background:var(--hero);color:white}.avatar{background:var(--soft)}
+th{background:var(--soft)}.bar{background:var(--soft)}.bar div{background:var(--green)}.gold,.notice,.example,.pitfall,.analogy-box,.pwa-update{background:var(--warn-bg);color:var(--warn-ink)}.analogy-box p,.analogy-symbol{color:var(--warn-ink)}.example p,.pitfall p{color:var(--warn-ink)}.analogy-box{border-color:var(--line)}
+.feedback,.decision.yes,.answer.correct{background:var(--good-bg);color:var(--good-ink)}.feedback.bad,.decision.no,.answer.wrong{background:var(--bad-bg);color:var(--bad-ink)}.decision p{color:inherit}.step.good,.answer.correct{border-color:var(--good-ink)}.step.bad,.answer.wrong{border-color:var(--bad-ink)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--green);outline-offset:3px}button:disabled{cursor:default;opacity:.7}dialog{width:min(650px,calc(100% - 28px))}fieldset{border:1px solid var(--line);border-radius:12px;padding:16px;margin:20px 0}legend{font-size:13px;font-weight:700;padding:0 7px}.palette-options{display:grid;grid-template-columns:1fr 1fr;gap:10px}.palette-options button{display:flex;gap:10px;align-items:center;text-align:left;font-size:13px}.palette-dot{width:21px;height:21px;border-radius:50%;flex-shrink:0;border:1px solid #ffffff55}#appearance-dialog [aria-pressed=true]{border:2px solid var(--green);background:var(--soft);padding:10px 15px}#appearance-dialog [aria-pressed=true]::after{content:'✓';margin-left:auto;color:var(--green)}
+.flash-scene{perspective:1400px}.flash-turn{display:grid;transform-style:preserve-3d;transition:transform .48s cubic-bezier(.2,.65,.25,1)}.flash-turn.is-flipped{transform:rotateY(180deg)}.flash-face{grid-area:1/1;backface-visibility:hidden;-webkit-backface-visibility:hidden;min-width:0;overflow-wrap:anywhere}.flash-front{transform:rotateY(0deg)}.flash-back{transform:rotateY(180deg)}.flip-control{display:block;margin:18px auto 0}.glossary-grid .term-example{margin:14px 0 10px;padding:12px;background:var(--soft);border-radius:8px;color:var(--ink)}.glossary-grid .term-confusion{border-left:3px solid var(--green);padding-left:12px}.term-count{color:var(--muted);font-size:12px;margin:12px 0}
+@media(max-width:450px){.palette-options{grid-template-columns:1fr}.flash h2{font-size:24px}.flash{padding:24px 18px}.header-actions{gap:2px}}
+@media(prefers-reduced-motion:reduce){.flash-turn{transition:none}}
+/* Neutral dark canvas; palette color belongs to cards and accents. */
+:root[data-mode=dark][data-palette=sage]{--bg:#141416;--surface:#202023;--soft:#29473a;--line:#4d7864;--hero:#254f3c;--ink:#f5f5f7;--muted:#bfc0c7;--card:#1c3028}
+:root[data-mode=dark][data-palette=slate]{--bg:#141416;--surface:#202023;--soft:#2d4661;--line:#56799a;--hero:#2a4c6d;--ink:#f5f5f7;--muted:#bfc0c7;--card:#203247}
+:root[data-mode=dark][data-palette=lavender]{--bg:#141416;--surface:#202023;--soft:#4c3a5d;--line:#8a6e9e;--hero:#503b65;--ink:#f5f5f7;--muted:#bfc0c7;--card:#34283f}
+:root[data-mode=dark][data-palette=terracotta]{--bg:#141416;--surface:#202023;--soft:#593d32;--line:#996b57;--hero:#633f31;--ink:#f5f5f7;--muted:#bfc0c7;--card:#3f2b25}
+:root[data-mode=dark][data-palette=sand]{--bg:#141416;--surface:#202023;--soft:#50452e;--line:#8d7b50;--hero:#594b2d;--ink:#f5f5f7;--muted:#bfc0c7;--card:#393222}
+:root[data-mode=dark] .card,:root[data-mode=dark] .stat,:root[data-mode=dark] .panel,:root[data-mode=dark] .quizbox,:root[data-mode=dark] .lessonbody,:root[data-mode=dark] .flash{border-color:var(--line)}
+:root[data-mode=dark] aside{background:var(--surface);border-right-color:var(--line)}
+:root[data-mode=dark] .hero{border:1px solid var(--line)}
+:root[data-mode=dark] .hero .eyebrow,:root[data-mode=dark] .hero p,:root[data-mode=dark] .nextlesson{color:var(--ink)!important}
+:root[data-mode=dark] .hero button{background:var(--green);color:var(--on-accent)}
+:root[data-mode=dark] .orb{background:var(--soft);border-color:var(--green);box-shadow:10px 12px 0 var(--bg);color:var(--ink)}
+:root[data-mode=dark] .orb:nth-child(3){background:var(--green);color:var(--on-accent)}
+:root[data-mode=dark] .orbit{border-color:var(--green)}
+:root[data-mode=dark] nav button.active{background:var(--soft);box-shadow:inset 3px 0 var(--green);color:var(--green)}
+:root[data-mode=dark] .icon,:root[data-mode=dark] .tag:not(.gold),:root[data-mode=dark] .lessonhead,:root[data-mode=dark] .memory,:root[data-mode=dark] .flow,:root[data-mode=dark] .domain-strip,:root[data-mode=dark] .checkpoint,:root[data-mode=dark] .panel pre,:root[data-mode=dark] .mechanism-flow li>span,:root[data-mode=dark] .usecase-list li,:root[data-mode=dark] .lesson-step-nav button[aria-pressed=true],:root[data-mode=dark] .header-actions .install-button{background:var(--soft)}
+:root[data-mode=dark] .primary,:root[data-mode=dark] .workshop-tabs [aria-pressed=true]{box-shadow:0 3px 0 var(--bg)}
+:root[data-mode=dark] .card:hover,:root[data-mode=dark] button:hover{border-color:var(--green)}
+:root[data-mode=dark] #appearance-dialog [aria-pressed=true]{background:var(--soft)}
+
+:root[data-mode=dark] .card,:root[data-mode=dark] .stat,:root[data-mode=dark] .panel,:root[data-mode=dark] .quizbox,:root[data-mode=dark] .flash,:root[data-mode=dark] .activity-strip button{background:var(--card);border-color:var(--line)}
+:root[data-mode=dark] aside{background:#1b1b1e;border-right-color:#39393f}
+:root[data-mode=dark] header,:root[data-mode=dark] footer,:root[data-mode=dark] .sidefoot{border-color:#39393f}
+:root[data-mode=dark] h1,:root[data-mode=dark] h2,:root[data-mode=dark] h3{color:#f5f5f7}
+:root[data-mode=dark] .stat strong,:root[data-mode=dark] .module-number,:root[data-mode=dark] .results,:root[data-mode=dark] .stat small,:root[data-mode=dark] .progresshead,:root[data-mode=dark] .tag,:root[data-mode=dark] .mechanism-flow li>span,:root[data-mode=dark] .lesson-step-nav button span,:root[data-mode=dark] .tco-number strong,:root[data-mode=dark] .domain-strip b{color:#f5f5f7}
+/* Lesson prose stays white in dark mode, including the specific lead style. */
+:root[data-mode=dark] .lesson p,
+:root[data-mode=dark] .lesson .lead-definition,
+:root[data-mode=dark] .lesson .keypoints,
+:root[data-mode=dark] .lesson .usecase-list,
+:root[data-mode=dark] .lesson table,
+:root[data-mode=dark] .lesson summary,
+:root[data-mode=dark] .lesson .noteslabel{color:#fff}
+:root[data-mode=dark] .lesson-purpose,
+:root[data-mode=dark] .related-box{background:var(--soft);color:#fff}

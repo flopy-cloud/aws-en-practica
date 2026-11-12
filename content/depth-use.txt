@@ -1,0 +1,100 @@
+0|Ejecutar aplicaciones que necesitan control sobre sistema operativo, software instalado y capacidad del servidor.
+1|Procesar eventos o solicitudes con código sin encargarte de aprovisionar y mantener servidores subyacentes.
+2|Desplegar aplicaciones delegando la preparación y coordinación del entorno, manteniendo control del código y su configuración.
+3|Poner en marcha proyectos sencillos con opciones de infraestructura y paquetes más acotados que EC2.
+4|Planificar muchos trabajos que pueden ejecutarse por lotes y esperar capacidad disponible.
+5|Ejecutar contenedores sin mantener las instancias de cómputo que los alojan.
+6|Organizar tareas y servicios en contenedores y mantener el estado de ejecución deseado.
+7|Usar Kubernetes con un plano de control administrado y compatibilidad con herramientas de su ecosistema.
+8|Versionar y distribuir imágenes de contenedores para que sistemas autorizados puedan descargarlas y ejecutarlas.
+9|Repartir tráfico entre destinos saludables y reducir dependencia de un único servidor de entrada.
+10|Adaptar capacidad a cambios de demanda o condiciones definidas, evitando mantener siempre el máximo aprovisionado.
+11|Conservar objetos independientes del servidor que los produce, como archivos, imágenes y conjuntos de datos.
+12|Proporcionar almacenamiento persistente en bloques para sistemas operativos y aplicaciones que corren en instancias compatibles.
+13|Compartir archivos accesibles por red entre varios clientes compatibles, sin administrar servidores de archivos propios.
+14|Conservar objetos de archivo con opciones de acceso y recuperación acordes a consultas poco frecuentes.
+15|Ofrecer sistemas de archivos administrados que cumplan requisitos de compatibilidad o rendimiento especializados.
+16|Aplicar políticas comunes de respaldo y gestionar restauraciones de recursos compatibles desde un servicio central.
+17|Conectar aplicaciones locales con almacenamiento AWS conservando interfaces híbridas compatibles con sus necesidades.
+18|Ejecutar una base relacional delegando parte del mantenimiento de infraestructura y del motor al servicio.
+19|Usar bases relacionales compatibles con MySQL o PostgreSQL sobre una arquitectura administrada diseñada por AWS.
+20|Persistir y consultar datos NoSQL por claves y patrones de acceso definidos, sin administrar servidores de base.
+21|Reducir latencia y trabajo repetido mediante datos en memoria, según el motor y la estrategia de aplicación.
+22|Analizar datos consolidados de gran volumen con SQL para informes y decisiones de negocio.
+23|Operar datos documentales con compatibilidad para determinadas cargas MongoDB, verificando las funciones necesarias.
+24|Consultar relaciones y recorridos entre entidades cuando las conexiones son el centro del problema.
+25|Definir el espacio de red, sus segmentos y la conectividad de recursos dentro de AWS.
+26|Separar segmentos de red y darles caminos públicos o privados según qué conectividad requiere cada carga.
+27|Restringir tráfico con controles de recurso y subred, comprendiendo su comportamiento diferente ante conexiones y respuestas.
+28|Resolver nombres de dominio y aplicar políticas DNS para dirigir consultas a destinos definidos.
+29|Acercar contenido a usuarios mediante una red de distribución y caché configurable en ubicaciones de borde.
+30|Exponer operaciones de una aplicación mediante una API administrada, con rutas e integraciones controladas.
+31|Establecer conectividad dedicada entre una red externa y AWS para necesidades de conexión híbrida.
+32|Unir redes mediante túneles cifrados para habilitar acceso híbrido sobre conectividad existente.
+33|Concentrar conexiones entre varias VPC y redes externas sin diseñar solo una malla de pares.
+34|Consumir servicios compatibles mediante acceso privado de interfaz sin abrir conectividad general entre las redes.
+35|Mejorar el recorrido hacia endpoints de aplicaciones mediante entradas globales y la red de AWS.
+36|Gestionar identidades y permisos para limitar quién puede realizar acciones sobre recursos AWS.
+37|Administrar de forma central el acceso de personas a cuentas y aplicaciones de trabajo.
+38|Incorporar autenticación y gestión de usuarios en aplicaciones destinadas a clientes u otros usuarios finales.
+39|Controlar claves y operaciones de cifrado integradas con servicios y aplicaciones autorizadas.
+40|Retirar credenciales del código y gestionarlas con acceso controlado y opciones de rotación.
+41|Detectar señales de amenazas para que un equipo investigue y responda a actividad sospechosa.
+42|Identificar vulnerabilidades de software y exposición en recursos compatibles para priorizar correcciones.
+43|Descubrir información sensible en objetos S3 y orientar acciones para protegerla.
+44|Filtrar solicitudes web con reglas para reducir tráfico malicioso o abusivo en recursos compatibles.
+45|Reducir impacto de ataques DDoS sobre disponibilidad, dentro del alcance de las protecciones aplicables.
+46|Reunir hallazgos y resultados de controles para priorizar trabajo de seguridad desde una visión central.
+47|Obtener documentos y acuerdos de cumplimiento de AWS como parte de una evaluación del proveedor.
+48|Administrar certificados para conexiones cifradas con recursos compatibles, como HTTPS en un balanceador.
+49|Observar métricas y registros de cargas, construir paneles y activar alarmas según señales recopiladas.
+50|Auditar actividad de cuenta y API para investigar qué ocurrió, quién lo hizo y cuándo.
+51|Conservar historial de configuración compatible y evaluar si cumple reglas definidas.
+52|Aprovisionar y actualizar infraestructura mediante plantillas reproducibles y gestionadas como stacks.
+53|Administrar recursos con capacidades operativas como sesiones, comandos, inventario, parches y automatizaciones compatibles.
+54|Organizar cuentas separadas con controles de gobierno y facturación consolidada.
+55|Establecer y gobernar una base multi-cuenta con controles y procesos de incorporación estandarizados.
+56|Encontrar recomendaciones de buenas prácticas y evaluar oportunidades de mejora según las comprobaciones disponibles.
+57|Consultar eventos de AWS y reconocer qué incidencias o mantenimientos pueden afectar una cuenta o servicio.
+58|Evaluar ajustes de capacidad compatible con recomendaciones basadas en patrones observados de uso.
+59|Desacoplar productores y consumidores conservando mensajes pendientes mientras los trabajadores los procesan.
+60|Distribuir una publicación a varios suscriptores mediante un patrón de publicación y suscripción.
+61|Conectar eventos con destinos mediante reglas y reducir integraciones directas entre emisores y receptores.
+62|Coordinar procesos de varias tareas con decisiones, esperas y manejo explícito de errores.
+63|Construir software, ejecutar pruebas y producir artefactos usando entornos de ejecución administrados.
+64|Automatizar el recorrido de cambios por distintas etapas de verificación y entrega de software.
+65|Investigar el recorrido y las demoras de solicitudes en aplicaciones distribuidas instrumentadas.
+66|Operar API de AWS mediante comandos y automatizar tareas desde una terminal.
+67|Desarrollar y publicar aplicaciones web o móviles integrando capacidades de alojamiento y backend según necesidad.
+68|Consultar datos con SQL sobre fuentes compatibles, como archivos S3, sin administrar servidores de consulta.
+69|Descubrir, catalogar e integrar datos con transformaciones que los preparan para consumo analítico.
+70|Procesar grandes conjuntos con frameworks distribuidos y mayor flexibilidad sobre ese entorno de procesamiento.
+71|Recibir y procesar datos que llegan continuamente mediante capacidades de streaming adecuadas al flujo.
+72|Buscar y analizar documentos o eventos indexados cuando se requiere exploración rápida por campos y términos.
+73|Presentar y explorar información de negocio mediante visualizaciones y experiencias de análisis compatibles.
+74|Desarrollar, entrenar y operar modelos propios con herramientas para distintas etapas de machine learning.
+75|Obtener análisis visual de imágenes y video para tareas compatibles sin construir un modelo desde cero.
+76|Extraer significado estructurado de texto, como entidades o sentimiento, mediante procesamiento de lenguaje natural.
+77|Producir voz sintetizada a partir de contenido escrito para narración e interfaces de audio.
+78|Convertir voz grabada o en flujo compatible a texto que pueda consultarse o analizarse.
+79|Ofrecer contenido escrito en otros idiomas mediante traducción automática de texto.
+80|Extraer texto y estructura de documentos para reducir captura manual y alimentar procesos posteriores.
+81|Construir interacciones conversacionales que identifican intenciones y conectan el diálogo con acciones de negocio.
+82|Asistir a personas en tareas de trabajo o desarrollo mediante el producto y accesos adecuados de la familia.
+83|Seguir objetivos de costo o uso y recibir avisos por umbrales configurados.
+84|Entender tendencias y composición del gasto registrado y explorar previsiones disponibles.
+85|Estimar recursos antes de crearlos y comparar costos bajo distintos supuestos de uso.
+86|Recibir asistencia y acceder a recursos de soporte según el plan y la criticidad de la operación.
+87|Mover o replicar datos entre bases compatibles como parte de una migración o integración.
+88|Realojar servidores en AWS con replicación, pruebas y un proceso de corte controlado.
+89|Evaluar transferencia física y procesamiento en escenarios admitidos donde la conectividad resulta insuficiente o inadecuada.
+90|Proporcionar escritorios remotos de trabajo que se ejecutan en un entorno alojado.
+91|Entregar aplicaciones de escritorio por streaming a usuarios sin instalarlas necesariamente en su equipo.
+92|Enviar o recibir correo de aplicaciones con herramientas de entrega y gestión compatibles.
+93|Organizar atención al cliente mediante un centro de contacto con canales, flujos y agentes.
+94|Conectar dispositivos y aplicaciones mediante mensajes sujetos a autenticación y políticas de acceso.
+95|Asignar correctamente tareas de seguridad y operación entre AWS y el cliente según el servicio.
+96|Elegir ubicación y distribuir cargas para responder a requisitos geográficos y aislamiento de fallas.
+97|Atender demanda variable y mantener servicio ante fallas mediante capacidades y objetivos diferenciados.
+98|Seleccionar modalidades de compra de cómputo según flexibilidad, interrupciones, compromisos y necesidad de capacidad.
+99|Evaluar riesgos y compensaciones de una arquitectura usando los seis pilares del marco.

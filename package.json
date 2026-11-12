@@ -1,0 +1,11 @@
+{
+  "name": "aws-en-practica",
+  "version": "1.1.0",
+  "private": true,
+  "description": "PWA educativa en español para aprender AWS con lecciones, repaso y simulaciones.",
+  "scripts": {
+    "test": "node tests/content.test.mjs && node tests/depth.test.mjs && node tests/pwa.test.mjs && node tests/refresh.test.mjs"
+  },
+  "engines": {"node": ">=22"},
+  "author": "Florencia Troche"
+}
